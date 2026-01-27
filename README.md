@@ -61,7 +61,7 @@ https://github.com/ggml-org/whisper.cpp/assets/1991296/c82e8f86-60dc-49f2-b048-d
 First clone the repository:
 
 ```bash
-git clone https://github.com/ggml-org/whisper.cpp.git
+git clone https://github.com/amd/whisper.cpp.git
 ```
 
 Navigate into the directory:
@@ -323,7 +323,7 @@ On AMD's Ryzen™ AI 300 Series with dedicated NPUs for acceleration, you can no
 ### Setup environment (Windows only)
 
 - **Driver:** Make sure you have NPU drivers version **.280 or newer** installed. [Download latest drivers from here](https://account.amd.com/en/forms/downloads/ryzenai-eula-public-xef.html?filename=NPU_RAI1.5_280_WHQL.zip)
-- **Runtime libraries:** Download and install the necessary [runtime dependencies from here](https://github.com/lemonade-sdk/whisper.cpp/releases/download/deps/flexmlrt1.7.0-win.zip).
+- **Runtime libraries:** Download and install the necessary [runtime dependencies from here](https://account.amd.com/en/forms/downloads/ryzenai-eula-public-xef.html?filename=flexmlrt1.7.0-win.zip).
 - **Environment:** Extract the runtime package and set up the environment:
   ```powershell
   tar xvf flexmlrt1.7.0-win.zip
